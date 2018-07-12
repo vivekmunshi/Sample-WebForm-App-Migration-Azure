@@ -58,6 +58,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\salesappsql - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\salesappsql - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

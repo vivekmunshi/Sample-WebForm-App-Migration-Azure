@@ -27,6 +27,8 @@ ORDER BY LastName"></asp:SqlDataSource>
         <div class="auto-style1">
         <asp:Label ID="Label1" runat="server" Text="Customer:"></asp:Label><asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="sqlCustomers" DataTextField="Name" DataValueField="CustomerID" AutoPostBack="True">
         </asp:DropDownList>
+            <br />
+            <br />
         </div>
         <div align="center">
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="OrderID" DataSourceID="sqlOrders" ForeColor="#333333" GridLines="None" style="text-align: left">
